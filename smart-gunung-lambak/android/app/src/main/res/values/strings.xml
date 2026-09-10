@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Smart Lambak</string>
+    <string name="title_activity_main">Smart Lambak</string>
+    <string name="package_name">gov.mpk.lambak.pilot</string>
+    <string name="custom_url_scheme">gov.mpk.lambak.pilot</string>
+</resources>
