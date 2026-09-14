@@ -1,10 +1,5 @@
-import { AppShell } from '@/components/AppShell';
-import { AuthProvider } from '@/components/auth';
+import LandingPage from '@/components/LandingPage';
 
 export default function Home() {
-  return (
-    <AuthProvider>
-      <AppShell />
-    </AuthProvider>
-  );
+  return <LandingPage />;
 }

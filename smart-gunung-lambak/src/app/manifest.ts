@@ -15,10 +15,10 @@ export default function manifest(): MetadataRoute.Manifest {
     orientation: 'portrait-primary',
     categories: ['travel', 'utilities', 'productivity'],
     shortcuts: [
-      { name: 'Visitor passport', short_name: 'Passport', url: '/?view=visitor' },
-      { name: 'Ranger tasks', short_name: 'Ranger', url: '/?view=ranger' },
-      { name: 'Command centre', short_name: 'Command', url: '/?view=command' },
-      { name: 'API console', short_name: 'API', url: '/?view=api' }
+      { name: 'Visitor passport', short_name: 'Passport', url: '/app?view=visitor' },
+      { name: 'Ranger tasks', short_name: 'Ranger', url: '/app?view=ranger' },
+      { name: 'Command centre', short_name: 'Command', url: '/app?view=command' },
+      { name: 'API console', short_name: 'API', url: '/app?view=api' }
     ],
     icons: [
       { src: '/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
